@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%);
+    padding: 0 20px;
+}
+
+/* .logo a {
+    
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+
+} */
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.nav-links li {
+    display: inline;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #337FED;
+    /* Tomato color */
+}
+.logo-image {
+    width: 80px;
+    height: 80px;
+    margin-top: 0;
+    
+}
