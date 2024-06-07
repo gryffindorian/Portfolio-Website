@@ -10,12 +10,12 @@ export default function Bottom() {
       >
         LinkedIn
       </a>
-      <a className="footer-link" href="https://www.instagram.com/qr/">
-        Instagram
+      <a className="footer-link" href="https://github.com/gryffindorian/">
+        GitHub
       </a>
       <a
         className="footer-link"
-        href="https://github.com/gryffindorian/My-Portfolio-Website.git"
+        href="https://portfolio-website-pi-weld.vercel.app/"
       >
         Website
       </a>
