@@ -1,10 +1,12 @@
 /* <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Merriweather&family=Montserrat&family=Rouge+Script&family=Sacramento&family=Tangerine:wght@700&display=swap" rel="stylesheet">; */
 
 body {
+    margin: 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 100%;
     color: #40514E;
+    max-width: 100%;
     background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%);
 }
 .hey {
@@ -235,10 +237,15 @@ hr {
     /* gap: 5px; */
     /* margin-right: 80px; */
 }
-.bottomContainer {
+/* .bottomContainer {
     width: 100%;
+    display: flex;
     justify-content: center;
-}
+    position: relative;
+    color: white;
+    padding: auto;
+    margin-top: 50px;
+} */
 .profile-pic {
     position: relative;
     width: 100%;

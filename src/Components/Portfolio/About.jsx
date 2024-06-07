@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "./images/cropped_image.png";
 import GitHubCalendar from "react-github-calendar";
+import { Row } from "react-bootstrap";
 
 export default function About() {
   return (
@@ -18,15 +19,32 @@ export default function About() {
           <img src={profile} className="profile-pic" alt="" />
         </div>
       </div>
-      <div className="bottomContainer">
+      <Row
+        style={{
+          justifyContent: "center",
+          paddingBottom: "10px",
+          width: "85%",
+          height: "350px",
+          position: "relative",
+          color: "white",
+          paddingTop: "50px",
+          marginRight: "0px",
+        }}
+      >
+        <h3
+          className="project-heading"
+          style={{ paddingBottom: "20px", color: "#854CE6" }}
+        >
+          My Contributions
+        </h3>
         <GitHubCalendar
           username="gryffindorian"
-          blockSize={15}
-          blockMargin={5}
-          color="#854CE6"
-          fontSize={16}
+          blockSize={12}
+          blockMargin={4}
+          // color="blue"
+          fontSize={14}
         />
-      </div>
+      </Row>
     </div>
   );
 }
