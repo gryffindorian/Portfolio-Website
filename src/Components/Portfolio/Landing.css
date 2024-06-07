@@ -5,6 +5,7 @@ body {
     font-family: 'Merriweather', serif;
     font-size: 100%;
     color: #40514E;
+    background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%);
 }
 .hey {
     margin: 50px auto 0 auto;
@@ -105,7 +106,7 @@ h3 {
 .top-container {
 
     /* background-image: url('images/Add\ a\ heading\ \(1\).png'); */
-    background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%);
+    /* background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%); */
     position: relative;
     padding-top: 50px;
     padding-bottom: 220px;
@@ -123,14 +124,14 @@ h3 {
     
     padding-top: 50px;
     /* margin: 100px 0; */
-    background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%);
-    
+    /*background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%);
+    */
 }
 
 .bottom-container {
     position: relative;
-    background: rgb(9, 8, 8);
-    background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%);
+    /* background: rgb(9, 8, 8);
+    background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%); */
     padding-top: 50px ;
     padding-bottom: 20px;
 }
@@ -481,6 +482,9 @@ border: 0.1px solid #854CE6;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
+}
+.Details :hover {
+    overflow: visible;
 }
 /* Project end */
 
