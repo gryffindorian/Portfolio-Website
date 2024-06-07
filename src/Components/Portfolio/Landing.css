@@ -176,36 +176,6 @@ p {
     text-align: left;
 
 }
-/* 
-.girl {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-}
-
-.boy {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-}
-
-.cr {
-    margin-right: 30px;
-    float: left;
-    width: 50%;
-}
-
-.s1 {
-    margin-left: 100px;
-}
-
-.s2 {
-    margin-right: 100px;
-}
-
-.s3 {
-    margin-left: 100px;
-} */
 
 a {
     color: #11999E;
@@ -265,6 +235,10 @@ hr {
     /* gap: 5px; */
     /* margin-right: 80px; */
 }
+.bottomContainer {
+    width: 100%;
+    justify-content: center;
+}
 .profile-pic {
     position: relative;
     width: 100%;
@@ -276,18 +250,6 @@ hr {
 
 }
 
-/* .card {
-    height: 400px ;
-    background: hsl(215, 97%, 28%);
-} */
-/* .row {
-    width: 100%;
-    display: flex;
-        flex-direction: column;
-        position: relative;
-        z-index: 1;
-            
-} */
 .SkillsContainer {
         width: 90%;
         display: flex;

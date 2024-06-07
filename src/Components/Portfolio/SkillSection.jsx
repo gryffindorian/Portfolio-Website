@@ -15,7 +15,7 @@ export default function SkillSection() {
               <div className="SkillList">
                 {skill.skills.map((item) => (
                   <div className="SkillItem">
-                    <img className="SkillImage" src={item.image} />
+                    <img className="SkillImage" src={item.image} alt="" />
                     {item.name}
                   </div>
                 ))}

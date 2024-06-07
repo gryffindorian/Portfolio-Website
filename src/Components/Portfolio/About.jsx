@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "./images/cropped_image.png";
+import GitHubCalendar from "react-github-calendar";
 
 export default function About() {
   return (
@@ -16,6 +17,15 @@ export default function About() {
         <div className="rightContainer">
           <img src={profile} className="profile-pic" alt="" />
         </div>
+      </div>
+      <div className="bottomContainer">
+        <GitHubCalendar
+          username="gryffindorian"
+          blockSize={15}
+          blockMargin={5}
+          color="#854CE6"
+          fontSize={16}
+        />
       </div>
     </div>
   );

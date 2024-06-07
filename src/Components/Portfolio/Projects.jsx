@@ -3,7 +3,7 @@ import React from "react";
 export default function Projects(props) {
   return (
     <div className="Card">
-      <img className="Image" src={props.image} />
+      <img className="Image" src={props.image} alt="" />
       <div className="Tags">
         {props.tags?.map((tag, index) => (
           <span className="Tag">{tag}</span>
