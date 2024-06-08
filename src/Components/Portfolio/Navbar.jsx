@@ -17,11 +17,11 @@ export default function Navbar() {
       <div className="logo">
         <img className="logo-image" src={logo} alt="" />
       </div>
-      <div className="like">
-        <button onClick={Like} className="btn3">
-          💖 {count}
-        </button>
-      </div>
+
+      <button onClick={Like} className="btn3">
+        💖 {count}
+      </button>
+
       <ul className="nav-links">
         <li>
           <a href="#about">About</a>

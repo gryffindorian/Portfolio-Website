@@ -19,9 +19,12 @@
     
 }
 /* .like {
-    display: flex;
-    justify-items: left;
+    position: relative;
+    display: inline;
+    
 } */
+
+
 
 .btn3 {
         background: transparent;
@@ -37,13 +40,17 @@
         font-weight: 500;
         padding: 5px 5px;
         margin-top: 3px;
+        
 }
 .btn3:hover {
         text-decoration:none;
         background-color: #f8b6e7;
         color: black;
         font-size: large;
+        
 }
+
+
 
 .nav-links {
     padding-top: 10px;

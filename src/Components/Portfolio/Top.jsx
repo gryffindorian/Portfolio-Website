@@ -22,7 +22,9 @@ function Top() {
           👋🏻
         </span>
       </h4>
-      <h1 className="typed1">I'm Ananya Jain</h1>
+      <h1 className="typed1">
+        I'm <span className="name">Ananya Jain</span>
+      </h1>
       <p className="pie typed2">
         a <span className="pro">pro</span>grammer
       </p>
