@@ -14,7 +14,7 @@ function Timer() {
   return (
     <div className="container">
       <h1>{Time}</h1>
-      <button onClick={getTime}>Get Time</button>
+      {/* <button onClick={getTime}>Get Time</button> */}
     </div>
   );
 }

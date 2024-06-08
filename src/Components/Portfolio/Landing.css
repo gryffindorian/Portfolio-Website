@@ -1,14 +1,22 @@
 /* <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Merriweather&family=Montserrat&family=Rouge+Script&family=Sacramento&family=Tangerine:wght@700&display=swap" rel="stylesheet">; */
 
 body {
-    margin: 0px;
+    margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 100%;
-    color: #40514E;
+    
     max-width: 100%;
-    background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%);
+    /* background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%);
+      */
+    background-image: url('images/Night-bg.png');
+    width: 100%;
 }
+/* .landing {
+    width: 100%;
+    margin: 0;
+} */
+
 .hey {
     margin: 50px auto 0 auto;
         font-family: 'Montserrat', sans-serif;
@@ -17,6 +25,53 @@ body {
        
 }
 
+ .wave {
+     animation-name: wave-animation;
+     /* Refers to the name of your @keyframes element below */
+     animation-duration: 2.1s;
+     /* Change to speed up or slow down */
+     animation-iteration-count: infinite;
+     /* Never stop waving :) */
+     transform-origin: 70% 70%;
+     /* Pivot around the bottom-left palm */
+     display: inline-block;
+ }
+
+ @keyframes wave-animation {
+     0% {
+         transform: rotate(0deg);
+     }
+
+     10% {
+         transform: rotate(14deg);
+     }
+
+     /* The following five values can be played with to make the waving more or less extreme */
+     20% {
+         transform: rotate(-8deg);
+     }
+
+     30% {
+         transform: rotate(14deg);
+     }
+
+     40% {
+         transform: rotate(-4deg);
+     }
+
+     50% {
+         transform: rotate(10deg);
+     }
+
+     60% {
+         transform: rotate(0deg);
+     }
+
+     /* Reset for the last half to pause */
+     100% {
+         transform: rotate(0deg);
+     }
+ }
 
 h1 {
     /* margin: 50px auto 0 auto; */
@@ -105,13 +160,21 @@ h3 {
     color: #11999E;
 }
 
+.timer {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #C499F3;
+    padding-top: 400px;
+    opacity: 30%;
+}
+
 .top-container {
 
     /* background-image: url('images/Add\ a\ heading\ \(1\).png'); */
     /* background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%); */
     position: relative;
-    padding-top: 50px;
-    padding-bottom: 220px;
+    padding-top: 120px;
+    padding-bottom: 150px;
     background-size: 100%;
     /* text-align: left;
     padding-left: 300px;
@@ -131,20 +194,25 @@ h3 {
 }
 
 .bottom-container {
-    position: relative;
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #08001cf1;
     /* background: rgb(9, 8, 8);
     background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%); */
     padding-top: 50px ;
     padding-bottom: 20px;
+    margin-top: 50px;
 }
 
 .pro {
     text-decoration: underline;
-    color: #11999E;
+    color: #11CDD4;
 }
 
 .footer-link {
     color: #11999E;
+   
 }
 
 p {
@@ -166,8 +234,8 @@ p {
 }
 
 .skills {
-    background: rgb(9, 8, 8);
-    background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%);
+    /* background: rgb(9, 8, 8);
+    background: linear-gradient(90deg, rgba(9, 8, 8, 1) 0%, rgba(11, 11, 94, 1) 56%, rgba(94, 34, 67, 1) 100%); */
     padding-bottom: 10px;
     padding-top: 30px;
 }
@@ -237,15 +305,7 @@ hr {
     /* gap: 5px; */
     /* margin-right: 80px; */
 }
-/* .bottomContainer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    color: white;
-    padding: auto;
-    margin-top: 50px;
-} */
+
 .profile-pic {
     position: relative;
     width: 100%;
@@ -517,6 +577,7 @@ border: 0.1px solid #854CE6;
     text-decoration: none;
 }
 .btn2 {
+    
         background: transparent;
         border: solid 1px #337FED ;
         border-radius: 8px;

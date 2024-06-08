@@ -26,7 +26,7 @@ export default function About() {
           width: "85%",
           height: "350px",
           position: "relative",
-          color: "white",
+          color: "#C499F3",
           paddingTop: "50px",
           marginRight: "0px",
         }}
