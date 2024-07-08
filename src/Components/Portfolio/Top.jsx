@@ -15,7 +15,7 @@ function Top() {
   }
 
   return (
-    <div className="top-container">
+    <div className="top-container ">
       <h4 className="hey">
         Hey there!{" "}
         <span className="wave" role="img" aria-labelledby="wave">

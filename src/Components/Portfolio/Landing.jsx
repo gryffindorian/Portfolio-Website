@@ -3,7 +3,6 @@ import Top from "./Top";
 import Middle from "./Middle";
 import Bottom from "./Bottom";
 import Navbar from "./Navbar";
-//import Resume from "./Resume";
 
 function Portfolio() {
   return (
@@ -12,7 +11,6 @@ function Portfolio() {
       <Top />
       <Middle />
       <Bottom />
-      {/* <Resume /> */}
     </>
   );
 }
