@@ -19,12 +19,12 @@ export default function About() {
           <img src={profile} className="profile-pic" alt="" />
         </div>
       </div>
-      <Row
+      {/* <Row
         style={{
           justifyContent: "center",
           paddingBottom: "10px",
           width: "85%",
-          height: "350px",
+          height: "430px",
           position: "relative",
           color: "#C499F3",
           paddingTop: "50px",
@@ -33,7 +33,11 @@ export default function About() {
       >
         <h3
           className="project-heading"
-          style={{ paddingBottom: "20px", color: "#854CE6" }}
+          style={{
+            paddingTop: "100px",
+            paddingBottom: "20px",
+            color: "#854CE6",
+          }}
         >
           My Contributions
         </h3>
@@ -44,7 +48,7 @@ export default function About() {
           // color="blue"
           fontSize={14}
         />
-      </Row>
+      </Row> */}
     </div>
   );
 }
