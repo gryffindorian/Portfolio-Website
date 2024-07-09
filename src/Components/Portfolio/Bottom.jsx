@@ -22,7 +22,7 @@ export default function Bottom() {
         <i class="fa-solid fa-laptop icon"></i>
         Website
       </a>
-      <p className="aj">© 2023 Ananya Jain.</p>
+      <p className="aj">© 2024 Ananya Jain.</p>
     </div>
   );
 }

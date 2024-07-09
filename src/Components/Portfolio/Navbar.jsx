@@ -6,7 +6,7 @@ import { useState } from "react";
 export default function Navbar() {
   // const count = 1;
 
-  var [count, setCount] = useState(1);
+  var [count, setCount] = useState(7);
 
   function Like() {
     setCount(count + 1);
